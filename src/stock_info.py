@@ -3,7 +3,7 @@ import polars as pl
 import streamlit as st
 import yfinance as yf
 
-from src import ticker_symbol
+import ticker_symbol
 
 
 @st.cache_data

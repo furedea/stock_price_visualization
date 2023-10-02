@@ -3,8 +3,8 @@ import altair as alt
 import polars as pl
 import streamlit as st
 
-from src import stock_info
-from src import ticker_symbol
+import stock_info
+import ticker_symbol
 
 
 def render() -> None:
