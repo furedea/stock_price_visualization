@@ -22,12 +22,7 @@ def render() -> None:
 
         selected_days: int = st.slider("日数", 1, 100, 20)
 
-        st.markdown(
-            """
-            ## 株価の範囲指定
-            範囲を指定してください。
-            """
-        )
+        st.markdown("## 株価の範囲指定")
 
         selected_range = st.slider("範囲を指定してください", 0.0, 1000.0, (0.0, 500.0))
 
