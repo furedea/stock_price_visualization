@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-yfinance = "^0.2.30"
+yfinance = "^0.2.31b2"
 polars = "^0.19.6"
 altair = "^5.1.1"
 streamlit = "^1.27.1"
